@@ -1,0 +1,162 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  list-style: none;
+  border: 0;
+  outline: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+i {
+  cursor: pointer;
+}
+/* ======START NAVBAR====== */
+/* solid bar */
+.top-bar {
+  background-color: #031f42;
+  color: #fff;
+  padding: 5px 0;
+}
+.top-bar .info {
+  font-size: 16px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .top-bar .info {
+    text-align: start;
+  }
+}
+.top-bar .media {
+  text-align: center;
+}
+.top-bar .media i {
+  font-size: 16px;
+  padding: 0 15px;
+  transition: all 0.5s ease-in-out;
+}
+.top-bar .media i:hover,
+.acc span:hover {
+  color: rgb(197, 44, 44);
+}
+/* end solid bar */
+.navbar {
+  box-shadow: 0 0 0 0 !important;
+}
+.navbar-brand {
+  padding-right: 20px;
+  margin-top: -10px;
+}
+.nav-link {
+  font-weight: bold;
+  color: black !important;
+  transition: 0.5s ease-in-out;
+}
+.nav-link:hover {
+  transform: translateY(-10px);
+}
+.categories {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+}
+@media (min-width: 768px) {
+  .categories {
+    display: block;
+  }
+}
+.acc {
+  display: none;
+}
+.acc span {
+  border-left: 1px solid rgba(0, 0, 0, 0.425);
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.acc button {
+  background-color: #0600ea96;
+  color: #fff;
+  padding: 14px;
+  border-radius: 9999px;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+.acc button:hover {
+  background-color: rgb(197, 44, 44);
+}
+@media (min-width: 992px) {
+  .acc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .acc span {
+    padding-left: 50px;
+  }
+}
+/* ======END NAVBAR====== */
+
+/* ======header main====== */
+.h-content {
+  background: linear-gradient(rgba(13, 7, 63, 0.801), rgba(13, 7, 63, 0.801)),
+    url(https://raw.githubusercontent.com/krpKarim/task-3/main/assets/images/page-title.jpg);
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  font-weight: bold;
+}
+.h-content a {
+  color: rgb(197, 44, 44);
+}
+.h-content a:hover {
+  color: rgb(95, 95, 207);
+}
+.h-content h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+/* ======end header main====== */
+/* ======START main-sec ====== */
+.search form {
+  background-color: #eef5f9 !important;
+  border-radius: 30px;
+}
+.search input {
+  padding: 10px;
+  text-align: left;
+  width: 90%;
+  background-color: transparent;
+}
+/* ======end main-sec====== */
+/* ======start tow section======== */
+.last-titel {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.line {
+  height: 50px;
+  width: 50px;
+  background-color: wheat;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.line:hover {
+  background-color: red;
+}
+/* ======end tow section======== */
