@@ -141,6 +141,9 @@ i {
 }
 /* ======end main-sec====== */
 /* ======start tow section======== */
+.card {
+  margin-bottom: 1rem;
+}
 .last-titel {
   display: flex;
   justify-content: space-between;
@@ -159,4 +162,28 @@ i {
 .line:hover {
   background-color: red;
 }
+.card-photo {
+  position: relative;
+  overflow: hidden;
+}
+.text-photo {
+  position: absolute;
+  background: black;
+  border-radius: 11px;
+  padding: 5px;
+  color: white;
+  left: -50px;
+  bottom: 0;
+  transition: 0.5s;
+  z-index: 111;
+}
+.card:hover .text-photo {
+  left: 0;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.2, 1.2);
+  transition: 0.3s;
+}
+
 /* ======end tow section======== */
